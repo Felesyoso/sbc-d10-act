@@ -1,0 +1,19 @@
+<!-- templates/result.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Result</h1>
+        <div class="result-box">
+            <p>Hello, I'm <span class="fullname">{{ fullname }}</span>, I'm <span class="age">{{ age }}</span> years old.</p>
+        </div>
+    </div>
+</body>
+</html>
